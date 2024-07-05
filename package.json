@@ -1,0 +1,29 @@
+{
+  "name": "ff",
+  "version": "0.1.0",
+  "description": "A file finder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melbaylon/ff.git"
+  },
+  "keywords": [
+    "storage",
+    "filestyle",
+    "file-indexing",
+    "search",
+    "file-manager",
+    "file-tagging",
+    "disk-space",
+    "crawler"
+  ],
+  "author": "melbaylon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melbaylon/ff/issues"
+  },
+  "homepage": "https://github.com/melbaylon/ff#readme"
+}
