@@ -6,16 +6,15 @@ function getContent(path) {
   return fs.readdirSync(path)
 }
 
-function listContent(path) {
-  const contents = getContent(path)
+function listContent(rootDir = testDir) {
+  const contents = getContent(rootDir)
   contents.forEach((content) => {
       console.log(fs.statSync(
-        `./test-dir/${content}`
+        `./${rootDir}/${content}`
       ))
   });
 
- 
 }
 
-listContent(testDir)
+listContent()
 
