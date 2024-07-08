@@ -1,10 +1,15 @@
 import * as fs from 'node:fs';
 
 const testDir = './test-dir'
+// listContent()
+tree()
+
+// 
 
 function getContent(path) {
   return fs.readdirSync(path)
 }
+
 
 function listContent(rootDir = testDir) {
   const contents = getContent(rootDir)
@@ -16,5 +21,10 @@ function listContent(rootDir = testDir) {
 
 }
 
-listContent()
+
+// recursively list contents of a directory
+function tree (path) {
+  //
+}
+
 
