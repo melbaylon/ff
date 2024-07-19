@@ -1,8 +1,8 @@
 import * as fs from 'node:fs';
 
 const testDir = './test-dir'
-// listContent()
-tree()
+listContent()
+// tree()
 
 // 
 
